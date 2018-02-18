@@ -10,7 +10,6 @@
 "	    for OpenVMS:  sys$login:.vimrc
 
 " When started as "evim", evim.vim will already have done these settings.
-execute pathogen#infect()
 if v:progname =~? "evim"
   finish
 endif
